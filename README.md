@@ -1,4 +1,4 @@
-# QMK Keymaps - By V-Franco
+# QMK Keymaps - By v-franco
 
 The [QMK Firmware](https://github.com/qmk/qmk_firmware) is used in my keyboards, and this repo contains all of the different Keymaps I make/use.
 It will be updated every time I create a new keymap.
