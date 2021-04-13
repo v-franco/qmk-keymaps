@@ -4,7 +4,7 @@ The planck is an ortholinear 40% keyboard laid out in a 4 by 12 grid.
 It functions using the QMK Firmware, which allows full customization of the board, which is very helpful because not everyone willl have the same needs in a keyboard,
 specially with one that has only 47 keys and depends on layers in order to access all the characters, key combinations, and macros not available on the base layer. 
 
-Since I am a software engineer, I designed my layout with productivity while coding in mind. 
+Being a software engineer, I designed my layout with productivity while coding in mind. 
 The planck I use is the rev6 by DROP + OLKB, with a complete grid layout (which means all the keys in the board are 1U)
 
 ## Base layer
