@@ -1,4 +1,4 @@
-#The Planck Keyboard
+# The Planck Keyboard
 
 The planck is an ortholinear 40% keyboard laid out in a 4 by 12 grid.
 It functions using the QMK Firmware, which allows full customization of the board, which is very helpful because not everyone willl have the same needs in a keyboard,
@@ -15,7 +15,7 @@ Next to the alt keys, I also included {}. This is because I use these symbols qu
 The base layer also includes a single Windows key, because I use shortcuts quite often.
 The tab key works as a tab when pressed, and when held it activates my layer 4, which is mapped for navigation, copy+paste, and other shortcuts.
 
-##Layer 1
+## Layer 1
 The layer 1 consists of exactly the same layout as the base layer, with the one change being that the layout is Colemak, but all the other keys remain the same as the base layer.
 
-##Layer 2 
+## Layer 2 
