@@ -19,7 +19,7 @@ The `tab` key works as a `tab` when pressed, and when held it activates my `laye
 The layer 1 consists of exactly the same layout as the base layer, with the one change being that the layout is COLEMAK, but all the other keys remain the same as the base layer.
 
 ## Layer 2 
-The layer 2 consists of the Function (F1-F12) keys, and numbers.
+The layer 2 consists of the Function (`F1`-`F12`) keys, and numbers.
 The numbers are arranged like in a normal keyboard, but I also included a numpad layout connecting with `7`, `8`, and `9`, because I find it easy to use. 
 Next to the numpad I included the four basic operations, `.`, `=`, `()`, and the `Enter` key. 
 
