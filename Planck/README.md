@@ -14,7 +14,7 @@ The `shift` and `ctrl` keys use tap functions in order to act as a normal `shift
 
 The base layer also includes a single Windows key, because I use shortcuts quite often.
 The `tab` key works as a `tab` when pressed, and when held it activates my `layer 4`, which is mapped for navigation, copy+paste, and other shortcuts.
-`
+```
                    ,-----------------------------------------------------------------------.
                    | Esc | Q   | W   | E   | R   | T   | Y   | U   | I   | O   | P   |  '  | 
                    |-----------------------------------------------------------------------|
@@ -30,10 +30,10 @@ Hold for Layer 4 - |Tab  | A   | S   | D   | F   | G   | H   | J   | K   | L   |
    Hold for num layer ----------------------                 /
                                                             /
    Hold for symbol layer -----------------------------------
-`
+```
 ## Layer 1
 The layer 1 consists of exactly the same layout as the base layer, with the one change being that the layout is COLEMAK, but all the other keys remain the same as the base layer.
-`
+```
                    ,-----------------------------------------------------------------------.
                    | Esc | Q   | W   | F   | P   | G   | J   | L   | U   | V   | ;   |  '  | 
                    |-----------------------------------------------------------------------|
@@ -50,13 +50,13 @@ Hold for Layer 4 - |Tab  | A   | R   | S   | T   | D   | H   | N   | E   | I   |
                                                             /
    Hold for symbol layer -----------------------------------
 
-`
+```
 ## Layer 2 
 The layer 2 consists of the Function (`F1`-`F12`) keys, and numbers.
 The numbers are arranged like in a normal keyboard, but I also included a numpad layout connecting with `7`, `8`, and `9`, because I find it easy to use. 
 Next to the numpad I included the four basic operations, `.`, `=`, `()`, and the `Enter` key. 
-`
-[                   ,-----------------------------------------------------------------------.
+```
+                   ,-----------------------------------------------------------------------.
                    | Esc | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 0   |Enter| 
                    |-----------------------------------------------------------------------|
 Hold for Layer 4 - |Tab  | F1  | F2  | F3  | F4  | F5  | F6  | 4   | 5   | 6   |  +  |  -  | 
@@ -66,12 +66,12 @@ Hold for Layer 4 - |Tab  | F1  | F2  | F3  | F4  | F5  | F6  | 4   | 5   | 6   |
   Tap for [ ------ |Ctrl |GUI  | {   |Alt  | Fn1 |Space|Bksp |  .  | 0   | =   |  (  |  )  | 
                    '-----------------------------------------------------------------------'
 
-`
+```
 
 ## Layer 3
 Layer 3 consists of symbols, which include all the `shift` activated symbols that are located with the numbers in a normal keyboard, and the symbols I have set as tap functions 
 on the base layer. I normally only use those with the base layer, however I considered important to have them in this layer, with the rest of the symbols.
-`
+```
                    ,-----------------------------------------------------------------------.
                    |  ~  |  !  |  @  |  #  |  $  |  %  |  ^  |  &  |  (  |  )  |  =  |     | 
                    |-----------------------------------------------------------------------|
@@ -81,7 +81,7 @@ Hold for Layer 4 - |Tab  |  <  |  >  |  -  |  _  |     |     |  *  |  {  |  }  |
                    |-----------------------------------------------------------------------|
   Tap for [ ------ |Ctrl |GUI  | {   |Alt  |     |Space|Bksp | Fn2 |     |     |     |     | 
                    '-----------------------------------------------------------------------'
-`
+```
 
 ## Layer 4 
 Layer 4 is used for navigation and other settings. 
@@ -90,7 +90,7 @@ I included two sets of arrow keys, the first one being `W A S D` and the second 
 Below the VIM-like arrows I set brightness control keys, and volume control keys next to the `W A S D` arrows.
 On the right side of `W` I also included  `Caps lock`.
 While in this layer, the lower right corner key (normally `right ctrl`) is set as a momentary layer, which is mapped to layer `5`
-`
+```
                    ,-----------------------------------------------------------------------.
                    | Esc | Cps | Up  |Vol- |Vol+ |Mute |Pg Up|Pg Dn|Home | End | Del |     | 
                    |-----------------------------------------------------------------------|
@@ -101,11 +101,11 @@ While in this layer, the lower right corner key (normally `right ctrl`) is set a
   Tap for [ ------ |Ctrl |GUI  |     |Alt  |     |Space|Bksp |     |RAlt |Menu |     | L5  | ----- Hold for layer settings layer
                    '-----------------------------------------------------------------------'
 
-`
+```
 
 ## Layer 5
 Layer 5 is used to set the default layer, which can be layer `0` (QWERTY) or layer `1` (COLEMAK), and also includes a `Reset` and `Debug` keys, for QMK configuration.
-`
+```
 Debug mode-----------------------------------------------------------------------
                       \                                                           \
                    ,-----------------------------------------------------------------------.
@@ -118,4 +118,4 @@ Debug mode----------------------------------------------------------------------
                    |     |     |     |     |     |     |     |     |     |     |     | L5  | ----- Let go to exit settings layer 
                    `-----------------------------------------------------------------------'
 
-`
+```
