@@ -16,9 +16,12 @@ The crkbd isn't a comercially made keyboard, like the planck (which you can get 
 
 ## My crkbd
 My crkbd uses a ProMicro MCU on each side, however, should one of them break (ProMicros tend to break easily) I'll swap them out for Elite-Cs.
-I can swap the MCUs very easily because I installed sockets on both the OLED screens and the MCUs, because having to desolder them directly from the PCB in case of replacement, would have been very problematic.
+I can swap the MCUs very easily because I installed sockets on both the OLED screens and the MCUs, because having to desolder them directly from the PCB in case of replacement, would have been very problematic. At the moment, my crkbd only has underglow RGB.
 
 The switches I currently have on the board are the Gazzew Boba U4 Silent 62g silent tactile switches, but because of the lack of noise, I may change them with the Holy Pandas my planck currently has. The reason for the incoming swap is because the planck is going to be my "to go" board, and I don't think it is a good idea to use in public spaces a very loud keyboard (the Holy Pandas are certainly loud). 
 
 ## Layout
 The crkbd supports VIA configuration. VIA is a QMK tool that basically acts as a UI, like QMK Configurator, however, VIA updates the layout/lighting changes almost instantly, without having to flash the board again. Despite it lacking certain features only available through coding the keymap/rules/config files, I'm going to give it a shot with this keyboard, but I'll still probably make my own custom keymap/firmware, just because I like programming in C.
+
+## Future plans
+I plan on getting a 3D printed case for better aesthetics/safety of the board, adding per-key lighting, and swapping the ProMicros for a better MCU.
