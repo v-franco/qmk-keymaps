@@ -10,4 +10,4 @@ I currently use two keyboards:
 
 [The Corne Keyboard](https://github.com/v-franco/qmk-keymaps/tree/main/Corne) as my main kb, only used at home atm
 
-[The Planck Keyboard](https://github.com/v-franco/qmk-keymaps/tree/main/Planck)as my second kb, used when working outside.
+[The Planck Keyboard](https://github.com/v-franco/qmk-keymaps/tree/main/Planck) as my second kb, used when working outside.
