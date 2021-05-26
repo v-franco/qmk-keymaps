@@ -18,7 +18,11 @@ The crkbd isn't a comercially made keyboard, like the planck (which you can get 
 My crkbd uses a ProMicro MCU on each side, however, should one of them break (ProMicros tend to break easily) I'll swap them out for Elite-Cs.
 I can swap the MCUs very easily because I installed sockets on both the OLED screens and the MCUs, because having to desolder them directly from the PCB in case of replacement, would have been very problematic. At the moment, my crkbd only has underglow RGB.
 
-The switches I currently have on the board are the Gazzew Boba U4 Silent 62g silent tactile switches, but because of the lack of noise, I may change them with the Holy Pandas my planck currently has. The reason for the incoming swap is because the planck is going to be my "to go" board, and I don't think it is a good idea to use in public spaces a very loud keyboard (the Holy Pandas are certainly loud). 
+### OLED Screens
+To give the OLED screens something more unique than the default behavior (showing only current layer or a kl) I decided to implement [Luna](https://www.reddit.com/r/olkb/comments/lmtgxc/introducing_luna_the_qmk_keyboard_pet/), the awesome virtual QMK pet made by [HellSing](https://github.com/HellSingCoder).
+Luna is a virtual pet that responds to certain actions like WPM, spaces, holding down Ctrl, and to complement the cool animations, the left OLED shows the current OS, current layer, and if caps lock is enabled or not. The left scren shows the WPM. 
+
+Luna's original code is made for the Sofle keyboard, and the [keymap](https://github.com/HellSingCoder/qmk_firmware/tree/master/keyboards/sofle/keymaps/helltm) with it is very different than mine, so I adapted the Luna code to a ckrbd using my own keymap, rules, and config file. (it can be found on this repo!)
 
 ## Layout
 Coming soon
