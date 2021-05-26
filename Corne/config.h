@@ -31,11 +31,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define USE_SERIAL_PD2
 
 #define TAPPING_FORCE_HOLD
-#define TAPPING_TERM 100
+#define TAPPING_TERM 200
 
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLED_NUM
-    #define RGBLIGHT_ANIMATIONS
+    #define RGBLIGHT_EFFECT_STATIC_LIGHT
+    #define RGBLIGHT_EFFECT_RAINBOW_MOOD
+    #define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+    #define RGBLIGHT_MODE_KNIGHT
     #define RGBLED_NUM 27
     #define RGBLIGHT_LIMIT_VAL 120
     #define RGBLIGHT_HUE_STEP 10
